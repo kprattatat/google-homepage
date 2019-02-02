@@ -1,0 +1,121 @@
+#notif{
+
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: -5px;
+}
+
+#apps{
+    height: 30px;
+    width: 30px;
+}
+
+#account{
+    height:35px;
+    border-radius: 50%;
+}
+
+#apps, #notif{
+    opacity: 0.6;
+}
+
+#apps:hover, #notif:hover{
+    opacity: 1.0;
+}
+
+#logo{
+    width: 270px;
+}
+
+.search{
+    width:400px;
+    height: 30px;
+    margin:20px;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.search:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 8px;
+    border: 0;
+    background-color: #F2F1F1;
+    border-radius: 3px;
+    opacity: 0.6;
+    margin:10px;
+    position: relative;
+    border: 1px solid white;
+}
+
+.button:hover{
+    border: 1px solid #c6c6c6;
+    opacity: 1;
+}
+
+.rights{
+    float: right;    
+}
+
+.main{
+    padding-top:200px;
+}
+
+.up{
+    position: relative;
+    top: -10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right:0;
+    left:0;
+    background-color: #F2F1F1;
+    height: 40px;
+    border-top: 1px solid #dddddd;
+}
+
+footer a{
+    display: inline-block;
+    color: #666;
+    font-size: 13.33px;
+    padding: 12px;
+}
+
+header{
+    display: inline-block;
+    font-size: 13.33px;
+    position: absolute;
+    top: 0;
+    right:0;
+    left:0;
+    padding-left: 20px;
+    margin:20px;
+}
+
+header a{
+    padding: 12px;
+}
