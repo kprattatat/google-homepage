@@ -89,6 +89,7 @@ body{
 a{
     text-decoration: none;
     color: black;
+    opacity: 0.75;
 }
 
 a:hover{
